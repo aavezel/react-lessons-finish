@@ -1,0 +1,25 @@
+{
+    "presets": [
+        [ 
+            "@babel/env",
+            {
+                "targets": [
+                    ">5%",
+                    "not dead",
+                    "not op_mini all"          
+                ],
+                "corejs": 3.6,
+                "useBuiltIns": "usage",
+                "debug": true,
+                "modules": false
+            }
+        ],
+        [
+            "@babel/react",
+            {
+                "debug": true
+            }
+        ]
+
+    ]    
+}

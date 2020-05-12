@@ -1,0 +1,28 @@
+.todo-list-item{
+    margin: .25rem .75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.todo-list-item_active {
+    font-weight: bold;
+}
+.todo-list-item_done {
+    text-decoration: line-through;
+}
+
+
+.todo-list-item-label {
+    flex: 1 1 auto;
+    cursor: pointer;
+}
+.todo-list-item-buttons {
+    flex: 0 0 auto;
+}
+.todo-list-item-buttons button {    
+    margin-right: 3px;    
+}
+.todo-list-item-buttons .btn:focus{
+    outline: none;
+    box-shadow: none !important;
+}
